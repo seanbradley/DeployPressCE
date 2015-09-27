@@ -1,0 +1,1 @@
+aws deploy list-applications

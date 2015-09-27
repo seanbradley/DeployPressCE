@@ -1,0 +1,25 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": "codedeploy:GetDeploymentConfig",
+      "Resource": "arn:aws:codedeploy:<DEFAULT_REGION>:<AWS_ACCOUNT_ID>:deploymentconfig:*"
+    },
+    {
+      "Effect": "Allow",
+      "Action": "codedeploy:RegisterApplicationRevision",
+      "Resource": "arn:aws:codedeploy:<DEFAULT_REGION>:<AWS_ACCOUNT_ID>:application:<APPLICATION_NAME>"
+    },
+    {
+      "Effect": "Allow",
+      "Action": "codedeploy:GetApplicationRevision",
+      "Resource": "arn:aws:codedeploy:<DEFAULT_REGION>:<AWS_ACCOUNT_ID>:application:<APPLICATION_NAME"
+    },
+    {
+      "Effect": "Allow",
+      "Action": "codedeploy:CreateDeployment",
+      "Resource": "arn:aws:codedeploy:<DEFAULT_REGION>:<AWS_ACCOUNT_ID>:deploymentgroup:<APPLICATION_NAME>/<DEPLOYMENT_GROUP>"
+    }
+  ]
+}

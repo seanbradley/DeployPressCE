@@ -1,0 +1,18 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "",
+      "Effect": "Allow",
+      "Principal": {
+        "Service": [
+          "codedeploy.us-east-1.amazonaws.com", 
+          "codedeploy.us-west-2.amazonaws.com",
+          "codedeploy.eu-west-1.amazonaws.com",
+          "codedeploy.ap-southeast-2.amazonaws.com"
+        ]
+      },
+      "Action": "sts:AssumeRole"
+    }
+  ]
+}

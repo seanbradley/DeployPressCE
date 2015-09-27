@@ -1,0 +1,5 @@
+[
+  '{"Name":"instance-type","Values":["t2.small", "t2.medium"]}' \
+  '{"Name":"availability-zone","Values":["us-west-2a"]}' \
+  '{"Name":"is-public","Values":["true"]}' \ '{"Name":"owner-alias","Values":["amazon"]}' \  '{"Name":"root-device-type","Values":["ebs"]}'
+]
